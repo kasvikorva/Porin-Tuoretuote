@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+
+  padding: 2%;
+  scroll-behavior: smooth;
+  font-family: Garamond, serif;
+}
+/*Tyyli */
+body {
+  margin-top: 25px;
+  padding-top: 25px;
+  background-color: #0d4339;
+}
+
+/* Yläosa ja logo */
+.navbar {
+  background-color: white;
+  border-bottom: solid 7px #0d4339;
+  border-top: solid 7px #0d4339;
+  padding: 0 !important ;
+  top: 0%;
+  height: 220px;
+  width: 112.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  padding: -7% white;
+  margin: -6.2%;
+}
+
+.navbar_container {
+  height: 640px; 
+  width: 490px;
+}
+
+.navbar_container img {
+  max-width: 100%;
+  max-height: 1000px;
+}
+
+.main {
+
+  background: white;
+  flex: 100%;
+  box-align: center;
+  padding-top: 110px;
+}
+
+.text h2 {
+  padding-top: 12%;
+  background: white;
+  text-align: center;
+  margin-top: 0rem;
+  font-weight: bold;
+  font-size: 4vmax;
+  color: #0d4339;
+  width: 100%;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  text-align: center;
+  width: 100%;
+}
+
+
+/* Yhteystiedot */
+.yhteystiedot {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.yhteystiedot_1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fix, minmax(200px,1fr));
+  grid-template-rows: 300px;
+  width: 100%;
+}
+.yt_kortit1 {
+  margin: 0px;
+  width: 100%;
+  border-radius: 0px;
+  border: #0d4339;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+.yt_kortit1 p {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 4vmax;
+  font-weight: bold;
+  width: 100%;
+}
+.yhteystiedot_2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fix, minmax(200px,1fr));
+  grid-template-rows: 400px;
+  width: 100%;
+}
+.yt_kortit2 {
+  margin: 0px;
+  width: 100%;
+  border-radius: 0px;
+  border: #0d4339;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+.yt_kortit2 p {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 3vmax;
+  font-weight: bold;
+  width: 100%;
+}
+.yhteystiedot_3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fix, minmax(200px,1fr));
+  grid-template-rows: 400px;
+  width: 100%;
+}
+.yt_kortit3 {
+  margin: 0px;
+  width: 100%;
+  border-radius: 0px;
+  border: #0d4339;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+.yt_kortit3 p {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 3vmax;
+  font-weight: bold;
+  width: 100%;
+}
+.puh_btn {
+  display: flex;
+  justify-content: center;
+  font-size: 2vmax;
+}
+.sp_btn {
+  display: flex;
+  justify-content: center;
+  font-size: 2vmax;
+}
+.yt_kortit button {
+  border: none;
+  outline: none;
+  border-radius: 0px;
+  background: white;
+  width: 100%;
+}
+.yt_kortit button:hover {
+  cursor: pointer;
+}
+
+/*Sijanti */
+.sijainti {
+  background: white;
+  text-align: center;
+  width: 100%;
+}
+.osoite {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 100%;
+}
+.osoite_kartta {
+  margin: 0px;
+  width: 100%;
+  size: 100px;
+  border-radius: 0;
+  padding: #0d4339;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+.osoite_kartta h3 {
+  background: white;
+  font-size: 3vmax;
+  font-weight: bold;
+  width: 100%;
+}
+.osoite_btn {
+  display: flex;
+  justify-content: center;
+  font-size: 2vmax;
+}
+.osoite button {
+  border: none;
+  outline: none;
+  border-radius: 0px;
+  background: white;
+
+}
+.osoite button:hover {
+  cursor: pointer;
+}
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 60%;
+  padding-right: 90%;
+  position: relative;
+  height: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
