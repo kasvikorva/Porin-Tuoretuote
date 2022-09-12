@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-
+  line-height: 0.7em;
   padding: 2%;
   scroll-behavior: smooth;
   font-family: Garamond, serif;
@@ -30,8 +30,8 @@ body {
 }
 
 .navbar_container {
-  height: 640px; 
-  width: 490px;
+  height: 770px; 
+  width: 610px;
 }
 
 .navbar_container img {
@@ -95,7 +95,7 @@ body {
 .yt_kortit1 p {
   text-align: center;
   margin-top: 0px;
-  font-size: 4vmax;
+  font-size: 3vmax;
   font-weight: bold;
   width: 100%;
 }
