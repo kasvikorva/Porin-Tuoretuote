@@ -19,7 +19,7 @@ body {
   border-top: solid 7px #0d4339;
   padding: 0 !important ;
   top: 0%;
-  height: 220px;
+  height: 240px;
   width: 112.5%;
   display: flex;
   justify-content: center;
@@ -54,7 +54,6 @@ body {
   margin-top: 0rem;
   font-weight: bold;
   font-size: 4vmax;
-  color: #0d4339;
   width: 100%;
   margin: 0;
 }
