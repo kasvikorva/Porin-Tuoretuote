@@ -54,9 +54,10 @@ body {
   margin-top: 0rem;
   font-weight: bold;
   font-size: 4vmax;
-  color:black;
   width: 100%;
   margin: 0;
+  color: black;
+  
 }
 
 .container {
@@ -74,6 +75,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  
 }
 
 .yhteystiedot_1 {
@@ -98,6 +100,7 @@ body {
   font-size: 3vmax;
   font-weight: bold;
   width: 100%;
+  
 }
 .yhteystiedot_2 {
   display: grid;
